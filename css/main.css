@@ -1,297 +1,59 @@
 @import "../fonts/style.css";
-a {
-  color: #0f76bb;
-  text-decoration: none;
-  transition: 0.4s all ease;
-}
-a:hover {
-  background: #fff;
-  color: #000;
-}
-body {
-  font-size: 1em;
-  font-family: "Open Sans", arial;
-}
-h1,
-h2,
-h3,
-h4 {
-  font-family: 'Amaranth', sans-serif;
-}
-iframe {
-  margin-top: 60px;
-  max-width: 100%;
-  max-height: 1900px;
-  position: absolute;
-  z-index: -9;
-}
-ul {
-  list-style-type: none;
-}
-#top {
-  background: #ee1c25;
-  margin: 0 auto;
-  width: 100%;
-}
-#top header {
-  display: inline-block;
-  margin: 0 auto;
-  max-width: 1100px;
-  padding: 1em 2em;
-  vertical-align: top;
-}
-#top header h1,
-#top header summary {
-  color: #efefef;
-  text-shadow: 0px 5px 5px rgba(0,0,0,0.75);
-}
-#top #login {
-  float: right;
-  font-size: 0.6em;
-}
-#top #login input {
-  color: #ee1c25;
-  border: none;
-  border-radius: 2px;
-  display: block;
-  margin: 1em;
-  padding: 0.15em;
-  transition: 0.3s all ease;
-  width: 100px;
-}
-#top #login input:focus,
-#top #login input:hover {
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
-  font-size: 1.3em;
-}
-#top #login input[type="submit"] {
-  background: #0f76bb;
-  border-radius: 1em;
-  box-shadow: none;
-  color: #fff;
-  font-size: 1em;
-  transition: 0.3s all ease;
-}
-#top #login input[type="submit"]:hover {
-  background: #fff;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
-  color: #0f76bb;
-  font-size: 1em;
-}
-#top #login #tool {
-  margin-left: -30px;
-}
-#top #login #tool a {
-  color: #fff;
-}
-#top #login #tool a:hover {
-  color: #0f76bb;
-}
-#navbar {
-  background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100%);
-  box-shadow: rgba(0,0,0,0.75);
-  max-width: 100%;
-}
-#navbar nav {
-  margin: 0 auto;
-  max-width: 1100px;
-}
-#navbar nav ul {
-  max-width: 900px;
-  margin: 0 auto;
-}
-#navbar nav ul li {
-  display: inline-block;
-  padding: 2em 0.5em;
-  vertical-align: top;
-}
-#navbar nav ul li a {
-  padding: 2em 0.5em;
-}
-#navbar nav ul li a:hover {
-  background: rgba(255,255,255,0.3);
-  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);
-}
-#booking {
-  background: #f3f3f3;
-  border-radius: 1em;
-  box-shadow: 0px 0px 8px rgba(0,0,0,0.85);
-  color: #666;
-  margin: 1em 8%;
-  padding: 0.3em 2em;
-  transition: 0.5 all ease;
-  width: 400px;
-}
-#booking h3 {
-  color: #ee1c25;
-}
-#booking input {
-  border: 1px solid #0f76bb;
-  border-radius: 8px;
-  color: #0f76bb;
-  display: block;
-  margin: 0.5em 0;
-  padding: 5px;
-  font-size: 1.4em;
-  transition: all 0.5s ease;
-}
-#booking input:hover,
-#booking input:focus {
-  border: 1px solid #ee1c25;
-  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
-  color: #ee1c25;
-}
-#booking input[type="submit"] {
-  background: #0f76bb;
-  border: 1px solid #f3f3f3;
-  color: #fff;
-  margin: 0 auto;
-  text-align: center;
-  transition: 0.5s all ease;
-  width: 50%;
-}
-#booking input[type="submit"]:hover {
-  background: #ee1c25;
-  border-width: 2px;
-  width: 100%;
-}
-#booking #in,
-#booking #out {
-  display: inline-block;
-  vertical-align: top;
-  width: 48.5%;
-}
-#booking #in input,
-#booking #out input {
-  width: 90%;
-}
-#booking #person-l,
-#booking #person-r {
-  display: inline-block;
-  vertical-align: top;
-  width: 48.5%;
-}
-#booking #person-l input,
-#booking #person-r input {
-  width: 90%;
-}
-#booking #where {
-  width: 100%;
-}
-#content {
-  background: #f3f3f3 url("../img/bg.png") left top repeat-x;
-  box-shadow: -8px 0px 20px rgba(0,0,0,0.75);
-  padding: 4em 0;
-}
-#content #news {
-  display: inline-block;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 5%;
-  vertical-align: top;
-}
-#content #news .post {
-  padding: 0.5em;
-  width: 100%;
-  transition: 0.5s all ease;
-}
-#content #news .post figure,
-#content #news .post p {
-  display: inline-block;
-  vertical-align: top;
-}
-#content #news .post figure {
-  overflow: hidden;
-  width: 20%;
-}
-#content #news .post figure a img {
-  border: none;
-}
-#content #news .post figure img {
-  width: 250px;
-  transition: 0.5s all ease;
-}
-#content #news .post figure img:hover {
-  -webkit-transform: translateX(-30px);
-  -moz-transform: translateX(-30px);
-  -o-transform: translateX(-30px);
-  -ms-transform: translateX(-30px);
-}
-#content #news .post p {
-  padding: 2em;
-  width: 60%;
-}
-#content #news .post .readmore {
-  text-align: right;
-}
-#content #news .post .readmore a {
-  background: #ee1c25;
-  border-radius: 0.4em;
-  padding: 1em;
-  color: #fff;
-}
-#content #news .post .readmore a:hover {
-  background: #0f76bb;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
-}
-#content #news .post:hover {
-  background: #ccc;
-  border-radius: 8px;
-}
-#content #news .post:hover figure a img {
-  -webkit-transform: translateX(-30px);
-  -moz-transform: translateX(-30px);
-  -o-transform: translateX(-30px);
-  -ms-transform: translateX(-30px);
-}
-#content #sidebar {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-}
-#content #sidebar input {
-  border: 1px solid #0f76bb;
-  border-radius: 8px;
-  color: #0f76bb;
-  margin-left: 10px;
-  padding: 5px;
-  transition: all 0.5s ease;
-}
-#content #sidebar input:hover,
-#content #sidebar input:focus {
-  border: 1px solid #ee1c25;
-  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
-  color: #ee1c25;
-}
-#content #sidebar #gallery {
-  background: #0f76bb;
-  padding: 10px;
-  margin: o auto;
-}
-#content #sidebar #gallery a:hover {
-  background: none;
-}
-#content #sidebar #gallery a:hover img {
-  opacity: 1;
-}
-#content #sidebar #gallery img {
-  border-radius: 4px;
-  display: inline-block;
-  margin-top: 4px;
-  opacity: 0.5;
-  transition: 0.5s all ease;
-  vertical-align: top;
-  width: 48%;
-}
-#content #sidebar #gallery .more {
-  color: #fff;
-  text-align: right;
-}
-#content #sidebar #gallery .more:hover {
-  color: #ee1c25;
-}
-footer {
-  margin: 0 auto;
-  max-width: 1100px;
-  text-align: center;
-}
+a{color:#0f76bb;text-decoration:none;transition:.4s all ease}
+a:hover{background:#fff;color:#000}
+body{font-size:1em;font-family:"Open Sans",arial}
+h1,h2,h3,h4{font-family:'Amaranth',sans-serif}
+iframe{margin-top:60px;max-width:100%;max-height:1900px;position:absolute;z-index:-9}
+ul{list-style-type:none}
+#top{background:#ee1c25;margin:0 auto;width:100%;}
+#top header{display:inline-block;margin:0 auto;max-width:1100px;padding:1em 2em;vertical-align:top;}
+#top header h1,#top header summary{color:#efefef;text-shadow:0 5px 5px rgba(0,0,0,0.75)}
+#top #login{float:right;font-size:.6em;}
+#top #login input{color:#ee1c25;border:none;border-radius:2px;display:block;margin:1em;padding:.15em;transition:.3s all ease;width:100px}
+#top #login input:focus,#top #login input:hover{box-shadow:0 0 5px rgba(0,0,0,0.75);font-size:1.3em}
+#top #login input[type="submit"]{background:#0f76bb;border-radius:1em;box-shadow:none;color:#fff;font-size:1em;transition:.3s all ease}
+#top #login input[type="submit"]:hover{background:#fff;box-shadow:0 0 5px rgba(0,0,0,0.75);color:#0f76bb;font-size:1em}
+#top #login #tool{margin-left:-30px;}
+#top #login #tool a{color:#fff}
+#top #login #tool a:hover{color:#0f76bb}
+#navbar{background:linear-gradient(to bottom,#fff 0%,#e5e5e5 100%);box-shadow:rgba(0,0,0,0.75);max-width:100%;}
+#navbar nav{margin:0 auto;max-width:1100px;}
+#navbar nav ul{max-width:900px;margin:0 auto;}
+#navbar nav ul li{display:inline-block;padding:2em .5em;vertical-align:top;}
+#navbar nav ul li a{padding:2em .5em}
+#navbar nav ul li a:hover{background:rgba(255,255,255,0.3);box-shadow:inset 0 0 5px rgba(0,0,0,0.5)}
+#booking{background:#f3f3f3;border-radius:1em;box-shadow:0 0 8px rgba(0,0,0,0.85);color:#666;margin:1em 8%;padding:.3em 2em;transition:.5 all ease;width:400px;}
+#booking h3{color:#ee1c25}
+#booking input{border:1px solid #0f76bb;border-radius:8px;color:#0f76bb;display:block;margin:.5em 0;padding:5px;font-size:1.4em;transition:all .5s ease}
+#booking input:hover,#booking input:focus{border:1px solid #ee1c25;box-shadow:0 0 8px rgba(0,0,0,0.5);color:#ee1c25}
+#booking input[type="submit"]{background:#0f76bb;border:1px solid #f3f3f3;color:#fff;margin:0 auto;text-align:center;transition:.5s all ease;width:50%}
+#booking input[type="submit"]:hover{background:#ee1c25;border-width:2px;width:100%}
+#booking #in,#booking #out{display:inline-block;vertical-align:top;width:48.5%}
+#booking #in input,#booking #out input{width:90%}
+#booking #person-l,#booking #person-r{display:inline-block;vertical-align:top;width:48.5%}
+#booking #person-l input,#booking #person-r input{width:90%}
+#booking #where{width:100%}
+#content{background:#f3f3f3 url("../img/bg.png") left top repeat-x;box-shadow:-8px 0 20px rgba(0,0,0,0.75);padding:4em 0;}
+#content #news{display:inline-block;margin:0 auto;max-width:800px;padding:0 5%;vertical-align:top;}
+#content #news .post{padding:.5em;width:100%;transition:.5s all ease;}
+#content #news .post figure,#content #news .post p{display:inline-block;vertical-align:top}
+#content #news .post figure{overflow:hidden;width:20%}
+#content #news .post figure a img{border:none}
+#content #news .post figure img{width:250px;transition:.5s all ease}
+#content #news .post figure img:hover{-webkit-transform:translateX(-30px);-moz-transform:translateX(-30px);-o-transform:translateX(-30px);-ms-transform:translateX(-30px)}
+#content #news .post p{padding:2em;width:60%}
+#content #news .post .readmore{text-align:right;}
+#content #news .post .readmore a{background:#ee1c25;border-radius:.4em;padding:1em;color:#fff}
+#content #news .post .readmore a:hover{background:#0f76bb;box-shadow:0 0 5px rgba(0,0,0,0.75)}
+#content #news .post:hover{background:#ccc;border-radius:8px}
+#content #news .post:hover figure a img{-webkit-transform:translateX(-30px);-moz-transform:translateX(-30px);-o-transform:translateX(-30px);-ms-transform:translateX(-30px)}
+#content #sidebar{display:inline-block;vertical-align:top;width:20%;}
+#content #sidebar input{border:1px solid #0f76bb;border-radius:8px;color:#0f76bb;margin-left:10px;padding:5px;transition:all .5s ease}
+#content #sidebar input:hover,#content #sidebar input:focus{border:1px solid #ee1c25;box-shadow:0 0 8px rgba(0,0,0,0.5);color:#ee1c25}
+#content #sidebar #gallery{background:#0f76bb;padding:10px;margin:o auto;}
+#content #sidebar #gallery a:hover{background:none}
+#content #sidebar #gallery a:hover img{opacity:1}
+#content #sidebar #gallery img{border-radius:4px;display:inline-block;margin-top:4px;opacity:.5;transition:.5s all ease;vertical-align:top;width:48%}
+#content #sidebar #gallery .more{color:#fff;text-align:right}
+#content #sidebar #gallery .more:hover{color:#ee1c25}
+footer{margin:0 auto;max-width:1100px;text-align:center}
