@@ -1,0 +1,178 @@
+a {
+  color: #0f76bb;
+  text-decoration: none;
+  transition: 0.4s all ease;
+}
+a:hover {
+  background: #fff;
+  color: #000;
+}
+body {
+  background: #ee1c25;
+  font-size: 1em;
+  font-family: "Open Sans", arial;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Amaranth', sans-serif;
+}
+iframe {
+  max-height: 1900px;
+  position: absolute;
+  z-index: -9;
+}
+ul {
+  list-style-type: none;
+}
+#top {
+  background: rgba(244,244,244,0.5);
+  box-shadow: rgba(0,0,0,0.75);
+  margin: 0 auto;
+  max-width: 1100px;
+}
+#top header {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1em 2em;
+  vertical-align: top;
+}
+#top header h1,
+#top header summary {
+  color: #efefef;
+  text-shadow: 0px 5px 5px rgba(0,0,0,0.75);
+}
+#top #login {
+  float: right;
+  font-size: 0.6em;
+}
+#top #login input {
+  color: #ee1c25;
+  border: none;
+  border-radius: 2px;
+  display: block;
+  margin: 1em;
+  padding: 0.15em;
+  transition: 0.3s all ease;
+  width: 100px;
+}
+#top #login input:focus,
+#top #login input:hover {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+  font-size: 1.3em;
+}
+#top #login input[type="submit"] {
+  background: #0f76bb;
+  border-radius: 1em;
+  box-shadow: none;
+  color: #fff;
+  font-size: 1em;
+  transition: 0.3s all ease;
+}
+#top #login input[type="submit"]:hover {
+  background: #fff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+  color: #0f76bb;
+  font-size: 1em;
+}
+#top #login #tool {
+  margin-left: -30px;
+}
+#navbar {
+  background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100%);
+  max-width: 100%;
+}
+#navbar nav {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+#navbar nav ul {
+  max-width: 900px;
+  margin: 0 auto;
+}
+#navbar nav ul li {
+  display: inline-block;
+  padding: 2em 0.5em;
+  vertical-align: top;
+}
+#navbar nav ul li a {
+  padding: 2em 0.5em;
+}
+#navbar nav ul li a:hover {
+  background: rgba(255,255,255,0.3);
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);
+}
+#booking {
+  background: #f3f3f3;
+  border-radius: 1em;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.85);
+  color: #666;
+  margin: 1em 8%;
+  padding: 0.3em 2em;
+  transition: 0.5 all ease;
+  width: 400px;
+}
+#booking h3 {
+  color: #ee1c25;
+}
+#booking input {
+  border: 1px solid #0f76bb;
+  border-radius: 8px;
+  color: #0f76bb;
+  display: block;
+  margin: 0.5em 0;
+  padding: 5px;
+  font-size: 1.4em;
+  transition: all 0.5s ease;
+}
+#booking input:hover,
+#booking input:focus {
+  border: 1px solid #ee1c25;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+  color: #ee1c25;
+}
+#booking input[type="submit"] {
+  background: #0f76bb;
+  border: 1px solid #f3f3f3;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  transition: 0.5s all ease;
+  width: 50%;
+}
+#booking input[type="submit"]:hover {
+  background: #ee1c25;
+  border-width: 2px;
+  width: 100%;
+}
+#booking #in,
+#booking #out {
+  display: inline-block;
+  vertical-align: top;
+  width: 48.5%;
+}
+#booking #in input,
+#booking #out input {
+  width: 90%;
+}
+#booking #person-l,
+#booking #person-r {
+  display: inline-block;
+  vertical-align: top;
+  width: 48.5%;
+}
+#booking #person-l input,
+#booking #person-r input {
+  width: 90%;
+}
+#booking #where {
+  width: 100%;
+}
+#content {
+  background: #f3f3f3;
+  box-shadow: -8px 0px 20px rgba(0,0,0,0.75);
+}
+#content #news {
+  max-width: 1100px;
+}
