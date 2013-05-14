@@ -224,6 +224,12 @@ ul {
   background: #0f76bb;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
 }
+#content #news .post:hover figure a img {
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  -o-transform: translateX(-30px);
+  -ms-transform: translateX(-30px);
+}
 #content #sidebar {
   display: inline-block;
   vertical-align: top;
