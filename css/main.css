@@ -81,6 +81,12 @@ ul {
 #top #login #tool {
   margin-left: -30px;
 }
+#top #login #tool a {
+  color: #fff;
+}
+#top #login #tool a:hover {
+  color: #0f76bb;
+}
 #navbar {
   background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100%);
   box-shadow: rgba(0,0,0,0.75);
@@ -173,7 +179,7 @@ ul {
   width: 100%;
 }
 #content {
-  background: #f3f3f3;
+  background: #f3f3f3 url("../img/bg.png") left top repeat-x;
   box-shadow: -8px 0px 20px rgba(0,0,0,0.75);
   padding: 4em 0;
 }
