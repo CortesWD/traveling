@@ -19,7 +19,7 @@ h4 {
   font-family: 'Amaranth', sans-serif;
 }
 iframe {
-  max-width: 2000px;
+  max-width: 100%;
   max-height: 1900px;
   position: absolute;
   z-index: -9;
