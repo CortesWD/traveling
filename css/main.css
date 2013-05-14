@@ -271,9 +271,9 @@ ul {
   display: inline-block;
   margin-top: 4px;
   opacity: 0.5;
+  transition: 0.5s all ease;
   vertical-align: top;
   width: 48%;
-  transition: 0.5s all ease;
 }
 #content #sidebar #gallery .more {
   color: #fff;
@@ -281,4 +281,9 @@ ul {
 }
 #content #sidebar #gallery .more:hover {
   color: #ee1c25;
+}
+footer {
+  margin: 0 auto;
+  max-width: 1100px;
+  text-align: center;
 }
