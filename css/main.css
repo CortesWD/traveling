@@ -183,7 +183,9 @@ ul {
   vertical-align: top;
 }
 #content #news .post {
+  padding: 0.5em;
   width: 100%;
+  transition: 0.5s all ease;
 }
 #content #news .post figure,
 #content #news .post p {
@@ -223,6 +225,10 @@ ul {
 #content #news .post .readmore a:hover {
   background: #0f76bb;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+#content #news .post:hover {
+  background: #ccc;
+  border-radius: 8px;
 }
 #content #news .post:hover figure a img {
   -webkit-transform: translateX(-30px);

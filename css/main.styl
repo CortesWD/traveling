@@ -184,7 +184,10 @@ ul
 		vertical-align top
 
 		.post
+			padding 0.5em
 			width 100%
+			transition 0.5s all ease
+
 
 			figure, p
 				display inline-block
@@ -225,6 +228,10 @@ ul
 				a:hover
 					background blue
 					box-shadow 0px 0px 5px rgba(0, 0, 0, .75)
+
+		.post:hover
+			background #ccc
+			border-radius 8px
 
 		.post:hover figure a img
 			-webkit-transform: translateX(-30px);
