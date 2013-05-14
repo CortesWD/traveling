@@ -1,6 +1,8 @@
 blue = #0f76bb
 red = #ee1c25
 
+@import ("../fonts/style.css")
+
 a
 	color blue
 	text-decoration none
@@ -11,7 +13,6 @@ a:hover
 	color #000
 
 body
-	background red
 	font-size 1em
 	font-family "Open Sans", arial
 
@@ -21,6 +22,7 @@ h1,h2,h3,h4
 
 
 iframe
+	max-width 2000px
 	max-height 1900px
 	position absolute
 	z-index -9
@@ -172,8 +174,94 @@ ul
 #content
 	background #f3f3f3
 	box-shadow -8px 0px 20px rgba(0, 0, 0, .75)
+	padding 4em 0
 
 	#news
+		display inline-block
 		margin 0 auto
-		max-width 1100px
+		max-width 800px
+		padding 0 5%
+		vertical-align top
 
+		.post
+			width 100%
+			figure, p
+				display inline-block
+				vertical-align top
+
+			figure
+				overflow hidden
+				width 20%
+
+			figure a img
+				border none
+
+			figure img
+				width 250px
+				transition: 0.5s all ease;
+
+			figure img:hover
+
+				-webkit-transform: translateX(-30px);
+				-moz-transform: translateX(-30px);
+				-o-transform: translateX(-30px);
+				-ms-transform: translateX(-30px);
+
+			p
+				padding 2em
+				width 60%
+
+			.readmore
+				text-align right
+
+				a
+					background red
+					border-radius 0.4em
+					padding 1em
+					color #fff
+
+				a:hover
+					background blue
+					box-shadow 0px 0px 5px rgba(0, 0, 0, .75)
+
+
+	#sidebar
+		display inline-block
+		vertical-align top
+		width 20%
+
+		input
+			border 1px solid blue
+			border-radius 8px
+			color blue
+			margin-left 10px
+			padding 5px
+			transition all 0.5s ease
+
+		input:hover, input:focus
+			border 1px solid red
+			box-shadow 0px 0px 8px rgba(0, 0, 0, .5)
+			color red
+
+		#gallery
+			background rgba(15, 118, 187, .75)
+			padding 10px
+			margin o auto
+
+			a:hover
+				background none
+
+			a:hover img
+				opacity 1
+
+			img
+				border-radius 4px
+				display inline-block
+				margin-top 4px
+				opacity 0.5
+				vertical-align top
+				width 48%
+				transition 0.5s all ease
+
+			.more
+				text-align right

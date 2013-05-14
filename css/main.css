@@ -1,3 +1,4 @@
+@import "../fonts/style.css";
 a {
   color: #0f76bb;
   text-decoration: none;
@@ -8,7 +9,6 @@ a:hover {
   color: #000;
 }
 body {
-  background: #ee1c25;
   font-size: 1em;
   font-family: "Open Sans", arial;
 }
@@ -19,6 +19,7 @@ h4 {
   font-family: 'Amaranth', sans-serif;
 }
 iframe {
+  max-width: 2000px;
   max-height: 1900px;
   position: absolute;
   z-index: -9;
@@ -172,7 +173,96 @@ ul {
 #content {
   background: #f3f3f3;
   box-shadow: -8px 0px 20px rgba(0,0,0,0.75);
+  padding: 4em 0;
 }
 #content #news {
-  max-width: 1100px;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 5%;
+  vertical-align: top;
+}
+#content #news .post {
+  width: 100%;
+}
+#content #news .post figure,
+#content #news .post p {
+  display: inline-block;
+  vertical-align: top;
+}
+#content #news .post figure {
+  overflow: hidden;
+  width: 20%;
+}
+#content #news .post figure a img {
+  border: none;
+}
+#content #news .post figure img {
+  width: 250px;
+  transition: 0.5s all ease;
+}
+#content #news .post figure img:hover {
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  -o-transform: translateX(-30px);
+  -ms-transform: translateX(-30px);
+}
+#content #news .post p {
+  padding: 2em;
+  width: 60%;
+}
+#content #news .post .readmore {
+  text-align: right;
+}
+#content #news .post .readmore a {
+  background: #ee1c25;
+  border-radius: 0.4em;
+  padding: 1em;
+  color: #fff;
+}
+#content #news .post .readmore a:hover {
+  background: #0f76bb;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+#content #sidebar {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+}
+#content #sidebar input {
+  border: 1px solid #0f76bb;
+  border-radius: 8px;
+  color: #0f76bb;
+  margin-left: 10px;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+#content #sidebar input:hover,
+#content #sidebar input:focus {
+  border: 1px solid #ee1c25;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+  color: #ee1c25;
+}
+#content #sidebar #gallery {
+  background: rgba(15,118,187,0.75);
+  padding: 10px;
+  margin: o auto;
+}
+#content #sidebar #gallery a:hover {
+  background: none;
+}
+#content #sidebar #gallery a:hover img {
+  opacity: 1;
+}
+#content #sidebar #gallery img {
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 4px;
+  opacity: 0.5;
+  vertical-align: top;
+  width: 48%;
+  transition: 0.5s all ease;
+}
+#content #sidebar #gallery .more {
+  text-align: right;
 }
