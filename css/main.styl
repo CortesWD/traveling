@@ -200,6 +200,19 @@ ul
 		padding 0 5%
 		vertical-align top
 
+		table tr td
+			text-align center
+
+		table tr td h3
+			color #fff
+
+		table tr td[width="60%"]
+			color blue
+
+		table tr td[data-rel="top"]
+			background red
+			border #fff 1px solid
+
 		.post
 			padding 0.5em
 			width 100%
@@ -207,6 +220,9 @@ ul
 
 			h3
 				color blue
+
+			h3 span
+				color red
 
 
 			figure, p
@@ -278,6 +294,38 @@ ul
 
 			.icon-play:hover
 				opacity 1
+
+	#buy
+		margin 3em auto 0 auto
+		width 600px
+
+		#plan
+			background blue
+			margin-left 7em
+			border-radius 4px
+			color #fff
+			opacity 0.6
+			padding 1em
+			text-align right
+
+
+		#tickets
+			background red
+			border-radius 4px
+			color #fff
+			opacity 0.6
+			padding 1em
+			text-align right
+			transition 0.4s all ease
+			max-width 100px
+
+		#plan:hover, #tickets:hover
+			box-shadow 0px 0px 10px rgba(0, 0, 0, .75)
+			opacity 1
+
+		#tickets:hover span:after
+			font-weight bold
+			content "10% OFF"
 
 
 

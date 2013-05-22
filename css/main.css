@@ -198,6 +198,19 @@ ul {
   padding: 0 5%;
   vertical-align: top;
 }
+#content #news table tr td {
+  text-align: center;
+}
+#content #news table tr td h3 {
+  color: #fff;
+}
+#content #news table tr td[width="60%"] {
+  color: #0f76bb;
+}
+#content #news table tr td[data-rel="top"] {
+  background: #ee1c25;
+  border: #fff 1px solid;
+}
 #content #news .post {
   padding: 0.5em;
   width: 100%;
@@ -205,6 +218,9 @@ ul {
 }
 #content #news .post h3 {
   color: #0f76bb;
+}
+#content #news .post h3 span {
+  color: #ee1c25;
 }
 #content #news .post figure,
 #content #news .post p {
@@ -272,6 +288,38 @@ ul {
 }
 #content #news #video .icon-play:hover {
   opacity: 1;
+}
+#content #buy {
+  margin: 3em auto 0 auto;
+  width: 600px;
+}
+#content #buy #plan {
+  background: #0f76bb;
+  margin-left: 7em;
+  border-radius: 4px;
+  color: #fff;
+  opacity: 0.6;
+  padding: 1em;
+  text-align: right;
+}
+#content #buy #tickets {
+  background: #ee1c25;
+  border-radius: 4px;
+  color: #fff;
+  opacity: 0.6;
+  padding: 1em;
+  text-align: right;
+  transition: 0.4s all ease;
+  max-width: 100px;
+}
+#content #buy #plan:hover,
+#content #buy #tickets:hover {
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+  opacity: 1;
+}
+#content #buy #tickets:hover span:after {
+  font-weight: bold;
+  content: "10% OFF";
 }
 #content #sidebar {
   display: inline-block;
