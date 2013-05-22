@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"he",
+				"max-height"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"perso",
+				"person-l"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"rgb",
+				"rgba	rgba"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"thumb",
+				"thumb1"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"bore",
+				"border-top"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"d",
+				"inside"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"f",
+				"font-style"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"box",
+				"box-masias"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"va",
+				"VA"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mostrar",
+				"mostrarDesc"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"foi",
+				"font-variant"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"rt",
+				"rt-block"
+			],
+			[
+				"con",
+				"contact-form"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"l",
+				"list-style"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"list-s",
+				"list-style-image"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"ls",
+				"list-style"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"nop",
+				"no-repeat"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"Fon",
+				"font-family"
+			],
+			[
+				"c",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@import \"../fonts/style.css\";\na {\n  color: #0f76bb;\n  text-decoration: none;\n  transition: 0.4s all ease;\n}\na:hover {\n  background: #fff;\n  color: #000;\n}\nbody {\n  font-size: 1em;\n  font-family: \"Open Sans\", arial;\n}\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Amaranth', sans-serif;\n}\niframe {\n  max-width: 2000px;\n  max-height: 1900px;\n  position: absolute;\n  z-index: -9;\n}\nul {\n  list-style-type: none;\n}\n#top {\n  background: rgba(244,244,244,0.5);\n  box-shadow: rgba(0,0,0,0.75);\n  margin: 0 auto;\n  max-width: 1100px;\n}\n#top header {\n  display: inline-block;\n  margin: 0 auto;\n  padding: 1em 2em;\n  vertical-align: top;\n}\n#top header h1,\n#top header summary {\n  color: #efefef;\n  text-shadow: 0px 5px 5px rgba(0,0,0,0.75);\n}\n#top #login {\n  float: right;\n  font-size: 0.6em;\n}\n#top #login input {\n  color: #ee1c25;\n  border: none;\n  border-radius: 2px;\n  display: block;\n  margin: 1em;\n  padding: 0.15em;\n  transition: 0.3s all ease;\n  width: 100px;\n}\n#top #login input:focus,\n#top #login input:hover {\n  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);\n  font-size: 1.3em;\n}\n#top #login input[type=\"submit\"] {\n  background: #0f76bb;\n  border-radius: 1em;\n  box-shadow: none;\n  color: #fff;\n  font-size: 1em;\n  transition: 0.3s all ease;\n}\n#top #login input[type=\"submit\"]:hover {\n  background: #fff;\n  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);\n  color: #0f76bb;\n  font-size: 1em;\n}\n#top #login #tool {\n  margin-left: -30px;\n}\n#navbar {\n  background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100%);\n  max-width: 100%;\n}\n#navbar nav {\n  margin: 0 auto;\n  max-width: 1100px;\n}\n#navbar nav ul {\n  max-width: 900px;\n  margin: 0 auto;\n}\n#navbar nav ul li {\n  display: inline-block;\n  padding: 2em 0.5em;\n  vertical-align: top;\n}\n#navbar nav ul li a {\n  padding: 2em 0.5em;\n}\n#navbar nav ul li a:hover {\n  background: rgba(255,255,255,0.3);\n  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);\n}\n#booking {\n  background: #f3f3f3;\n  border-radius: 1em;\n  box-shadow: 0px 0px 8px rgba(0,0,0,0.85);\n  color: #666;\n  margin: 1em 8%;\n  padding: 0.3em 2em;\n  transition: 0.5 all ease;\n  width: 400px;\n}\n#booking h3 {\n  color: #ee1c25;\n}\n#booking input {\n  border: 1px solid #0f76bb;\n  border-radius: 8px;\n  color: #0f76bb;\n  display: block;\n  margin: 0.5em 0;\n  padding: 5px;\n  font-size: 1.4em;\n  transition: all 0.5s ease;\n}\n#booking input:hover,\n#booking input:focus {\n  border: 1px solid #ee1c25;\n  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);\n  color: #ee1c25;\n}\n#booking input[type=\"submit\"] {\n  background: #0f76bb;\n  border: 1px solid #f3f3f3;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  transition: 0.5s all ease;\n  width: 50%;\n}\n#booking input[type=\"submit\"]:hover {\n  background: #ee1c25;\n  border-width: 2px;\n  width: 100%;\n}\n#booking #in,\n#booking #out {\n  display: inline-block;\n  vertical-align: top;\n  width: 48.5%;\n}\n#booking #in input,\n#booking #out input {\n  width: 90%;\n}\n#booking #person-l,\n#booking #person-r {\n  display: inline-block;\n  vertical-align: top;\n  width: 48.5%;\n}\n#booking #person-l input,\n#booking #person-r input {\n  width: 90%;\n}\n#booking #where {\n  width: 100%;\n}\n#content {\n  background: #f3f3f3;\n  box-shadow: -8px 0px 20px rgba(0,0,0,0.75);\n  padding: 4em 0;\n}\n#content #news {\n  display: inline-block;\n  margin: 0 auto;\n  max-width: 800px;\n  padding: 0 5%;\n  vertical-align: top;\n}\n#content #news .post {\n  padding: 0.5em;\n  width: 100%;\n  transition: 0.5s all ease;\n}\n#content #news .post figure,\n#content #news .post p {\n  display: inline-block;\n  vertical-align: top;\n}\n#content #news .post figure {\n  overflow: hidden;\n  width: 20%;\n}\n#content #news .post figure a img {\n  border: none;\n}\n#content #news .post figure img {\n  width: 250px;\n  transition: 0.5s all ease;\n}\n#content #news .post figure img:hover {\n  -webkit-transform: translateX(-30px);\n  -moz-transform: translateX(-30px);\n  -o-transform: translateX(-30px);\n  -ms-transform: translateX(-30px);\n}\n#content #news .post p {\n  padding: 2em;\n  width: 60%;\n}\n#content #news .post .readmore {\n  text-align: right;\n}\n#content #news .post .readmore a {\n  background: #ee1c25;\n  border-radius: 0.4em;\n  padding: 1em;\n  color: #fff;\n}\n#content #news .post .readmore a:hover {\n  background: #0f76bb;\n  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);\n}\n#content #news .post:hover {\n  background: #ccc;\n  border-radius: 8px;\n}\n#content #news .post:hover figure a img {\n  -webkit-transform: translateX(-30px);\n  -moz-transform: translateX(-30px);\n  -o-transform: translateX(-30px);\n  -ms-transform: translateX(-30px);\n}\n#content #sidebar {\n  display: inline-block;\n  vertical-align: top;\n  width: 20%;\n}\n#content #sidebar input {\n  border: 1px solid #0f76bb;\n  border-radius: 8px;\n  color: #0f76bb;\n  margin-left: 10px;\n  padding: 5px;\n  transition: all 0.5s ease;\n}\n#content #sidebar input:hover,\n#content #sidebar input:focus {\n  border: 1px solid #ee1c25;\n  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);\n  color: #ee1c25;\n}\n#content #sidebar #gallery {\n  background: #0f76bb;\n  padding: 10px;\n  margin: o auto;\n}\n#content #sidebar #gallery a:hover {\n  background: none;\n}\n#content #sidebar #gallery a:hover img {\n  opacity: 1;\n}\n#content #sidebar #gallery img {\n  border-radius: 4px;\n  display: inline-block;\n  margin-top: 4px;\n  opacity: 0.5;\n  transition: 0.5s all ease;\n  vertical-align: top;\n  width: 48%;\n}\n#content #sidebar #gallery .more {\n  color: #fff;\n  text-align: right;\n}\n#content #sidebar #gallery .more:hover {\n  color: #ee1c25;\n}\nfooter {\n  margin: 0 auto;\n  max-width: 1100px;\n  text-align: center;\n}\n",
+			"file": "css/main.css",
+			"file_size": 4737,
+			"file_write_time": 130129923371128546,
+			"settings":
+			{
+				"buffer_size": 5490,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.styl",
+			"settings":
+			{
+				"buffer_size": 4491,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6404,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"csss",
+				"Convert Case: Swap Case"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"jquer",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: setdoc5"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Amend Commit"
+			],
+			[
+				"gi",
+				"Git: Status"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"control",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"action",
+				"Set Syntax: ActionScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"con",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"contr",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/js/main.js",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/index.html",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/css/main.styl",
+		"/E/Universidad/2013-I/Marketing Internacional/web/search28484/search28484/index.html",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/css/main.css",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/fonts/style.css",
+		"/E/DC/Site V0.1/css/main.css",
+		"/E/Universidad/2013-I/Marketing Internacional/web/search28484/search28484/style.css",
+		"/E/Universidad/2013-I/Marketing Internacional/livingcolombia/index.html",
+		"/E/Universidad/2013-I/Marketing Internacional/livingcolombia/css/main.styl",
+		"/E/Universidad/2013-I/Marketing Internacional/web/js/main.js",
+		"/E/Universidad/2013-I/Marketing Internacional/web/css/main.styl",
+		"/E/Universidad/2013-I/Marketing Internacional/web/index.html",
+		"/E/Universidad/2013-I/Marketing Internacional/web/css/main.css",
+		"/E/Universidad/2013-I/Marketing Internacional/web/js/main.css",
+		"/C/Users/CortesWebDesign/AppData/Roaming/Sublime Text 2/Packages/User/setdoc5.sublime-snippet",
+		"/E/WORK/Clientes/TEDx/index.html",
+		"/E/CURSO/JS pro/JavascriptPro/JavascriptPro/index.html",
+		"/E/CURSO/JS pro/JavascriptPro/JavascriptPro/js/main.js",
+		"/E/CURSO/JS pro/JavascriptPro/JavascriptPro/js/app.js",
+		"/E/CURSO/JS pro/JavascriptPro/JavascriptPro/js/core/sandbox.js",
+		"/E/WORK/Clientes/Manos con Alma/mca/bioenergetico.html",
+		"/E/WORK/Clientes/Manos con Alma/mca/localizada.html",
+		"/E/WORK/Clientes/Manos con Alma/mca/tandem.html",
+		"/E/WORK/Clientes/Manos con Alma/mca/tantra.html",
+		"/E/WORK/Clientes/Manos con Alma/mca/nuad.html",
+		"/C/Users/CortesWebDesign/AppData/Roaming/Sublime Text 2/Packages/sublime-github/GitHub.sublime-settings",
+		"/C/Users/CortesWebDesign/AppData/Roaming/Sublime Text 2/Packages/GitHubinator/Default.sublime-commands",
+		"/C/Users/CortesWebDesign/AppData/Roaming/Sublime Text 2/Packages/Github Tools/Default.sublime-commands",
+		"/E/WORK/Clientes/Manos con Alma/web/tantra.html",
+		"/E/CURSO/codiguito.js",
+		"/E/WORK/Clientes/Manos con Alma/web/nuad.html",
+		"/E/WORK/Clientes/Manos con Alma/web/index.html",
+		"/E/WORK/Clientes/Manos con Alma/web/experiencias-cuerpo.html",
+		"/E/WORK/Clientes/Manos con Alma/web/css/layout.css",
+		"/E/WORK/Clientes/Manos con Alma/web/masajes.html",
+		"/E/WORK/Clientes/Manos con Alma/web/js/homeSl.js",
+		"/E/WORK/Clientes/Manos con Alma/web/js/masajesSl.js",
+		"/E/CURSO/FrontEND/archivos/index.html",
+		"/E/CURSO/FrontEND/archivos/estilos.styl",
+		"/E/CURSO/FrontEND/archivos/estilos_11.styl",
+		"/E/CURSO/FrontEND/archivos/estilos_10.styl",
+		"/E/WORK/Clientes/TEDx/css/estilos.styl",
+		"/E/WORK/Clientes/TEDx/css/estilos.css",
+		"/C/Users/CortesWebDesign/Downloads/Da Vinci Demons/Da.Vincis.Demons.S01E01.HDTV.x264-2HD.srt",
+		"/E/Universidad/2013-I/Mercadeo de Servicios/disney/wp-config.php",
+		"/E/Resources/scripts/preloader/362/preloader_JS.html",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/css/uniform.default.css",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/css/default/css/uniform.default.css",
+		"/E/WORK/Clientes/SKP/pixelmatrix-uniform-v2.1.1-0-g3e9cd85/pixelmatrix-uniform-3e9cd85/demo/demo.html",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/js/libs/jquery.uniform.js",
+		"/E/WORK/Clientes/SKP/stylesheet.css",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/font/stylesheet.css",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/css/main",
+		"/C/Users/CortesWebDesign/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/skp-form.sublime-workspace",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/skp-form.sublime-project",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/send.php",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/config.php",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/PIE.htc",
+		"/E/WORK/Clientes/SKP/Tab_Form/web/index.html",
+		"/C/Users/User/Desktop/CLientes/BR/BR Form/index.html",
+		"/D/CLIENTES DiSEÑO 1/BRASSCO/deploy_form/index.html",
+		"/D/CLIENTES DiSEÑO 1/BRASSCO/deploy_form/js/form.js",
+		"/D/CLIENTES DiSEÑO 1/BRASSCO/deploy_form/js/main.js",
+		"/D/CLIENTES DiSEÑO 1/LOS_PINOS/web_site_2013/home.html",
+		"/D/CLIENTES DiSEÑO 1/LOS_PINOS/landing/web/css/normalize.css",
+		"/C/Users/User/Desktop/CLientes/BR/BR Form/css/main.css",
+		"/D/CLIENTES DiSEÑO 1/LOS_PINOS/landing/pie/PIE.htc",
+		"/D/CLIENTES DiSEÑO 1/LOS_PINOS/landing/pie/PIE.php",
+		"/D/CLIENTES DiSEÑO 1/full80S/2013/Abril_vilma palma/streaming/landing/font/stylesheet.css",
+		"/D/CLIENTES DiSEÑO 1/full80S/2013/Abril_vilma palma/streaming/landing/img/bg.jpg",
+		"/C/Users/User/Downloads/tweet/index.html",
+		"/C/Users/User/Downloads/tweet/form.html",
+		"/C/Users/User/Desktop/index.html",
+		"/D/CLIENTES DiSEÑO 1/LOS_PINOS/web_site_2013/index.html",
+		"//Diseño3/clientes/BR/2013/App_Puntos/Puntos_BR/tabtest.html",
+		"//Diseño3/clientes/BR/2013/App_Puntos/Puntos_BR/widget.html",
+		"//Diseño3/clientes/BR/2013/App_Puntos/Puntos_BR/markers.js",
+		"/D/CLIENTES DiSEÑO 1/full80S/Plataforma Mailing/datos",
+		"//Diseño3/clientes/BR/2013/App_Puntos/Puntos_BR/demo.html",
+		"//Diseño3/clientes/BR/2013/App_Puntos/Puntos_BR/main.css",
+		"//Diseño3/clientes/BR/2013/App_Puntos/Puntos_BR/map.html",
+		"/D/CLIENTES DiSEÑO 1/BRASSCO/deploy_form/css/main.css",
+		"/D/CLIENTES DiSEÑO 1/BRASSCO/deploy_form/send.php",
+		"/D/CLIENTES DiSEÑO 1/BRASSCO/Site/form.html",
+		"/D/CLIENTES DiSEÑO 1/BRASSCO/deploy_form/form.html",
+		"/D/CLIENTES DiSEÑO 1/full80S/2013/Abril_vilma palma/Newsletter/se-vino-la-pachanga.html",
+		"/D/CLIENTES DiSEÑO 1/full80S/2013/mailing/email_full80smarzo-01.html",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/assets/js/html5.js",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/assets/js/jquery.bxSlider.min.js",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/assets/js/slides.min.jquery.js",
+		"/C/Users/User/Desktop/CLientes/COLFONDOS/Base Silvana/MULTIMEDIA COLFONDOS/MULTIMEDIA_TUTORIAL/index.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/index.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/options.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/functions.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/backup_index.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/single-noticias.php",
+		"/C/Users/User/Desktop/CLientes/COLFONDOS/Base Silvana/MULTIMEDIA COLFONDOS/MULTIMEDIA_TUTORIAL/tutorial_portal.html",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/.htaccess",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/lib/st-cp-programs.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/single.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/single-program.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/404.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/search.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/taxonomy-notices.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/taxonomy-programa.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/tpl-noticias.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/page.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/header.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/coming soon/index.html",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-config.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-settings.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-login.php",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/style.css",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/index.html",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/db enviada/data/tamsaac_20120927_0657.sql",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/db/data/tamsaac_20120927_0657.sql",
+		"/C/Users/User/Desktop/CLientes/full80s/BackUP Site enero 2013/sitio/configuration.php",
+		"/C/Users/User/Desktop/enviar.txt",
+		"/C/Users/User/Desktop/CLientes/full80s/BackUP Site enero 2013/configuration.php",
+		"/C/Users/User/Desktop/CLientes/full80s/BackUP Site enero 2013/web.config.txt",
+		"/C/Users/User/Desktop/CLientes/SPR/2013/webnail para enero 22/webnail.html",
+		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/Site/index.html",
+		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/Site/css/estilos.css",
+		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/mail/tedx-resume.html",
+		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/Site/js/main.js",
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/db/data/tamsaac.sql"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\CLIENTES DiSEÑO 1\\SKP\\Tab_Form\\web",
+			"<open files>",
+			"C:\\Users\\User\\Desktop\\CLientes\\NEGOCIOS Y PETROLEOS\\Web\\Modules\\mod_k2_content\\"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"background",
+			"<img src=\"img/sanandres.jpg\" alt=\"\">",
+			"50",
+			"in",
+			"0",
+			"\"",
+			"details",
+			"article",
+			"tantra-",
+			"bioenergetico",
+			"“",
+			"<li><a href=\"perfiles-terapeutas.html\" title=\"Perfiles Terapeutas\" >Manos con<br />Alma FEM</a></li>",
+			">\n",
+			"\"",
+			"border",
+			">\n",
+			"\">\n",
+			">\n",
+			"mainMenu",
+			"\"",
+			":",
+			"The SubFactory",
+			"check",
+			"images/",
+			"div#products label\n{\n	display: inline;\n}",
+			"'",
+			"contactBack",
+			" PLEASE CONTACT ME BACK",
+			"'",
+			"css",
+			"static",
+			"strong",
+			";\n",
+			"380",
+			"ff0",
+			"'",
+			"TERRAIN",
+			"Puntos_BR",
+			"articule",
+			"widg_text_news",
+			"date",
+			"Todos los derechos",
+			"video",
+			"grid",
+			"<div class=\"grid_12 push_12\">",
+			"grid_5",
+			"grid_3",
+			"programs",
+			"<div class=\"grid_23 push_1\">",
+			"<div class=\"grid_7 push_8\">",
+			"menu",
+			"main-container",
+			"grid_7",
+			"menu",
+			"bkstage2",
+			"wp_users",
+			"LOCK TABLES `wp_users` WRITE;",
+			",",
+			"user",
+			",",
+			"\"",
+			";",
+			"\"\n",
+			"gutierrezjavier@etb.net.co\n",
+			";	\n",
+			";\n",
+			"}\n",
+			">\n",
+			"#box",
+			"#1",
+			".masias",
+			"class=\"1\"",
+			"h4",
+			".jpg\"/></figure>",
+			"<figure class=\"mosaic-backdrop\">",
+			"mosaic-overlay-2",
+			"mosaic-overlay",
+			"\n        ",
+			"details",
+			";\n",
+			"itemFacebookButton",
+			"read",
+			"mllinas@la.ko.com",
+			"itemdate",
+			";\n",
+			"label",
+			",",
+			"ñ",
+			";",
+			"\"",
+			"com",
+			"user",
+			"<div class=\"itemMeta\">",
+			"post",
+			"post by",
+			"moduletable",
+			"ja-box-right",
+			"ja-box-ct",
+			"ja-right2",
+			"inner-div",
+			"moduleItemAuthor",
+			"moduleItemImage",
+			"ReadMore",
+			"moduleItemReadMore",
+			"content-home",
+			"blog",
+			"blo",
+			"k2Container",
+			"*/",
+			"button validate",
+			"contact",
+			"itemDate",
+			"giselle_cf",
+			"com",
+			"do",
+			"com",
+			"ñ",
+			"\"",
+			",",
+			";",
+			"pmunozs@hotmail.com",
+			"com",
+			"\"",
+			",",
+			" com",
+			";",
+			"rt-footer",
+			"em"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"\"",
+			"<li><a href=\"fem.html\" title=\"Manos con Alma FEM\" >Manos con<br />Alma FEM</a></li>",
+			"'",
+			"\n                    <ul>\n                        <li><a href=\"index.html\">Experiencias Cuerpo</a></li>\n                        <li><a href=\"masajes.html\">Sensaciones</a></li>\n                        <li><a href=\"facial.html\">Talleres</a></li>\n                        <li><a href=\"agua.html\">Ritual del agua</a></li>\n                        <li><a href=\"talleres.html\">Talleres</a></li>\n                        <li class=\"last\"><a href=\"contacto.html\">Contacto</a></li>\n                    </ul>\n                  ",
+			"",
+			"img/",
+			"\"",
+			" \"",
+			" <div class=\"grid_24\">",
+			" <div class=\"grid_12 push_12\">",
+			" <div class=\"grid_24\">",
+			" <div class=\"grid_23 push_1\">",
+			".",
+			" ",
+			"#box-masias",
+			"#box",
+			"#1",
+			"class=\"line\"",
+			".jpg\"/></div>",
+			"<div class=\"mosaic-backdrop\">",
+			"mosaic-overlay",
+			".",
+			" ",
+			".",
+			".com",
+			"",
+			"&aacute;",
+			"&eacute;",
+			"&uacute;",
+			"&aacute;",
+			"&iacute;",
+			"&oacute;",
+			"&ntilde;",
+			"",
+			"http://ideactividad.com/salud-y-bienestar-boletin-5/",
+			"http://ideactividad.com/terminos-social-media/full80s/css/",
+			"http://ideactividad.com/terminos-social-media/full80s/img/",
+			"../img/",
+			"img/",
+			"css/",
+			"\"",
+			"http://ideactividad.com/terminos-social-media/schwarzkopf/",
+			"../fonts/",
+			"http://ideactividad.com/terminos-social-media/br/",
+			"http://ideactividad.com/terminos-social-media/schwarzkopf/js/",
+			"http://ideactividad.com/terminos-social-media/schwarzkopf/img/",
+			"http://ideactividad.com/terminos-social-media/br/img/",
+			"http://ideactividad.com/terminos-social-media/br/",
+			"font-family:\"Tahoma\", Geneva, sans-serif;",
+			"img/mb_Components/",
+			"#fff",
+			"\"",
+			"\"Variexregular\";",
+			"img/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 5490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3540,
+								3540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3594.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.styl",
+					"settings":
+					{
+						"buffer_size": 4491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 130.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 130.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/CLIENTES DiSEÑO 1/full80S/2013/Abril_vilma palma/streaming/landing/stream-full80s.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true
+}
