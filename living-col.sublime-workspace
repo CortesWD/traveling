@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"none"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
 				"he",
-				"max-height"
+				"height"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"function",
+				"assert.fail(actual, expected, message, operator, stackStartFunction);"
 			],
 			[
 				"mar",
@@ -38,10 +74,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"bor",
-				"border-radius"
 			],
 			[
 				"a",
@@ -112,10 +144,6 @@
 				"inside"
 			],
 			[
-				"mari",
-				"margin-left"
-			],
-			[
 				"pos",
 				"position"
 			],
@@ -126,14 +154,6 @@
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"fo",
@@ -172,10 +192,6 @@
 				"document"
 			],
 			[
-				"fun",
-				"function"
-			],
-			[
 				"mostrar",
 				"mostrarDesc"
 			],
@@ -210,10 +226,6 @@
 			[
 				"bak",
 				"background-size"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"wi",
@@ -276,10 +288,6 @@
 				"no-repeat"
 			],
 			[
-				"no",
-				"no-repeat"
-			],
-			[
 				"margi",
 				"margin"
 			],
@@ -300,46 +308,80 @@
 	"buffers":
 	[
 		{
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 6706,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "@import \"../fonts/style.css\";\na {\n  color: #0f76bb;\n  text-decoration: none;\n  transition: 0.4s all ease;\n}\na:hover {\n  background: #fff;\n  color: #000;\n}\nbody {\n  font-size: 1em;\n  font-family: \"Open Sans\", arial;\n}\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Amaranth', sans-serif;\n}\niframe {\n  max-width: 2000px;\n  max-height: 1900px;\n  position: absolute;\n  z-index: -9;\n}\nul {\n  list-style-type: none;\n}\n#top {\n  background: rgba(244,244,244,0.5);\n  box-shadow: rgba(0,0,0,0.75);\n  margin: 0 auto;\n  max-width: 1100px;\n}\n#top header {\n  display: inline-block;\n  margin: 0 auto;\n  padding: 1em 2em;\n  vertical-align: top;\n}\n#top header h1,\n#top header summary {\n  color: #efefef;\n  text-shadow: 0px 5px 5px rgba(0,0,0,0.75);\n}\n#top #login {\n  float: right;\n  font-size: 0.6em;\n}\n#top #login input {\n  color: #ee1c25;\n  border: none;\n  border-radius: 2px;\n  display: block;\n  margin: 1em;\n  padding: 0.15em;\n  transition: 0.3s all ease;\n  width: 100px;\n}\n#top #login input:focus,\n#top #login input:hover {\n  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);\n  font-size: 1.3em;\n}\n#top #login input[type=\"submit\"] {\n  background: #0f76bb;\n  border-radius: 1em;\n  box-shadow: none;\n  color: #fff;\n  font-size: 1em;\n  transition: 0.3s all ease;\n}\n#top #login input[type=\"submit\"]:hover {\n  background: #fff;\n  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);\n  color: #0f76bb;\n  font-size: 1em;\n}\n#top #login #tool {\n  margin-left: -30px;\n}\n#navbar {\n  background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100%);\n  max-width: 100%;\n}\n#navbar nav {\n  margin: 0 auto;\n  max-width: 1100px;\n}\n#navbar nav ul {\n  max-width: 900px;\n  margin: 0 auto;\n}\n#navbar nav ul li {\n  display: inline-block;\n  padding: 2em 0.5em;\n  vertical-align: top;\n}\n#navbar nav ul li a {\n  padding: 2em 0.5em;\n}\n#navbar nav ul li a:hover {\n  background: rgba(255,255,255,0.3);\n  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);\n}\n#booking {\n  background: #f3f3f3;\n  border-radius: 1em;\n  box-shadow: 0px 0px 8px rgba(0,0,0,0.85);\n  color: #666;\n  margin: 1em 8%;\n  padding: 0.3em 2em;\n  transition: 0.5 all ease;\n  width: 400px;\n}\n#booking h3 {\n  color: #ee1c25;\n}\n#booking input {\n  border: 1px solid #0f76bb;\n  border-radius: 8px;\n  color: #0f76bb;\n  display: block;\n  margin: 0.5em 0;\n  padding: 5px;\n  font-size: 1.4em;\n  transition: all 0.5s ease;\n}\n#booking input:hover,\n#booking input:focus {\n  border: 1px solid #ee1c25;\n  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);\n  color: #ee1c25;\n}\n#booking input[type=\"submit\"] {\n  background: #0f76bb;\n  border: 1px solid #f3f3f3;\n  color: #fff;\n  margin: 0 auto;\n  text-align: center;\n  transition: 0.5s all ease;\n  width: 50%;\n}\n#booking input[type=\"submit\"]:hover {\n  background: #ee1c25;\n  border-width: 2px;\n  width: 100%;\n}\n#booking #in,\n#booking #out {\n  display: inline-block;\n  vertical-align: top;\n  width: 48.5%;\n}\n#booking #in input,\n#booking #out input {\n  width: 90%;\n}\n#booking #person-l,\n#booking #person-r {\n  display: inline-block;\n  vertical-align: top;\n  width: 48.5%;\n}\n#booking #person-l input,\n#booking #person-r input {\n  width: 90%;\n}\n#booking #where {\n  width: 100%;\n}\n#content {\n  background: #f3f3f3;\n  box-shadow: -8px 0px 20px rgba(0,0,0,0.75);\n  padding: 4em 0;\n}\n#content #news {\n  display: inline-block;\n  margin: 0 auto;\n  max-width: 800px;\n  padding: 0 5%;\n  vertical-align: top;\n}\n#content #news .post {\n  padding: 0.5em;\n  width: 100%;\n  transition: 0.5s all ease;\n}\n#content #news .post figure,\n#content #news .post p {\n  display: inline-block;\n  vertical-align: top;\n}\n#content #news .post figure {\n  overflow: hidden;\n  width: 20%;\n}\n#content #news .post figure a img {\n  border: none;\n}\n#content #news .post figure img {\n  width: 250px;\n  transition: 0.5s all ease;\n}\n#content #news .post figure img:hover {\n  -webkit-transform: translateX(-30px);\n  -moz-transform: translateX(-30px);\n  -o-transform: translateX(-30px);\n  -ms-transform: translateX(-30px);\n}\n#content #news .post p {\n  padding: 2em;\n  width: 60%;\n}\n#content #news .post .readmore {\n  text-align: right;\n}\n#content #news .post .readmore a {\n  background: #ee1c25;\n  border-radius: 0.4em;\n  padding: 1em;\n  color: #fff;\n}\n#content #news .post .readmore a:hover {\n  background: #0f76bb;\n  box-shadow: 0px 0px 5px rgba(0,0,0,0.75);\n}\n#content #news .post:hover {\n  background: #ccc;\n  border-radius: 8px;\n}\n#content #news .post:hover figure a img {\n  -webkit-transform: translateX(-30px);\n  -moz-transform: translateX(-30px);\n  -o-transform: translateX(-30px);\n  -ms-transform: translateX(-30px);\n}\n#content #sidebar {\n  display: inline-block;\n  vertical-align: top;\n  width: 20%;\n}\n#content #sidebar input {\n  border: 1px solid #0f76bb;\n  border-radius: 8px;\n  color: #0f76bb;\n  margin-left: 10px;\n  padding: 5px;\n  transition: all 0.5s ease;\n}\n#content #sidebar input:hover,\n#content #sidebar input:focus {\n  border: 1px solid #ee1c25;\n  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);\n  color: #ee1c25;\n}\n#content #sidebar #gallery {\n  background: #0f76bb;\n  padding: 10px;\n  margin: o auto;\n}\n#content #sidebar #gallery a:hover {\n  background: none;\n}\n#content #sidebar #gallery a:hover img {\n  opacity: 1;\n}\n#content #sidebar #gallery img {\n  border-radius: 4px;\n  display: inline-block;\n  margin-top: 4px;\n  opacity: 0.5;\n  transition: 0.5s all ease;\n  vertical-align: top;\n  width: 48%;\n}\n#content #sidebar #gallery .more {\n  color: #fff;\n  text-align: right;\n}\n#content #sidebar #gallery .more:hover {\n  color: #ee1c25;\n}\nfooter {\n  margin: 0 auto;\n  max-width: 1100px;\n  text-align: center;\n}\n",
-			"file": "css/main.css",
-			"file_size": 4737,
-			"file_write_time": 130129923371128546,
+			"file": "cartagena.html",
 			"settings":
 			{
-				"buffer_size": 5490,
-				"line_ending": "Unix"
+				"buffer_size": 12448,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "coffee.html",
+			"settings":
+			{
+				"buffer_size": 12468,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/main.styl",
 			"settings":
 			{
-				"buffer_size": 4491,
+				"buffer_size": 6208,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "bogota.html",
 			"settings":
 			{
-				"buffer_size": 6404,
+				"buffer_size": 12205,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sanandres.html",
+			"settings":
+			{
+				"buffer_size": 12446,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 7859,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 265.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
 			[
 				"css",
 				"Set Syntax: CSS"
@@ -351,10 +393,6 @@
 			[
 				"tab",
 				"Indentation: Convert to Tabs"
-			],
-			[
-				"html",
-				"Set Syntax: HTML5"
 			],
 			[
 				"jquer",
@@ -470,12 +508,24 @@
 	},
 	"file_history":
 	[
-		"/E/Universidad/2013-I/Marketing Internacional/traveling/js/main.js",
 		"/E/Universidad/2013-I/Marketing Internacional/traveling/index.html",
 		"/E/Universidad/2013-I/Marketing Internacional/traveling/css/main.styl",
-		"/E/Universidad/2013-I/Marketing Internacional/web/search28484/search28484/index.html",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/bogota.html",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/js/cart.js",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/book.html",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/js/main.js",
 		"/E/Universidad/2013-I/Marketing Internacional/traveling/css/main.css",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/css/animation.css",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/css/slide.css",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/js/libs/knockout.js",
 		"/E/Universidad/2013-I/Marketing Internacional/traveling/fonts/style.css",
+		"/E/Universidad/2013-I/Marketing Internacional/web/CSS3-Slider/CSS3-Slider/index.html",
+		"/E/Universidad/2013-I/Marketing Internacional/web/CSS3-Slider/CSS3-Slider/res/css/style.css",
+		"/E/Universidad/2013-I/Marketing Internacional/web/CSS3-Slider/CSS3-Slider/res/css/animation.css",
+		"/E/Universidad/2013-I/Marketing Internacional/web/play38086/play38086/index.html",
+		"/E/Universidad/2013-I/Marketing Internacional/traveling/sanandres.html",
+		"/E/Universidad/2013-I/Marketing Internacional/web/play38086/play38086/style.css",
+		"/E/Universidad/2013-I/Marketing Internacional/web/search28484/search28484/index.html",
 		"/E/DC/Site V0.1/css/main.css",
 		"/E/Universidad/2013-I/Marketing Internacional/web/search28484/search28484/style.css",
 		"/E/Universidad/2013-I/Marketing Internacional/livingcolombia/index.html",
@@ -585,19 +635,7 @@
 		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-settings.php",
 		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-login.php",
 		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/wp-content/themes/tenaristamsa/style.css",
-		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/index.html",
-		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/db enviada/data/tamsaac_20120927_0657.sql",
-		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/db/data/tamsaac_20120927_0657.sql",
-		"/C/Users/User/Desktop/CLientes/full80s/BackUP Site enero 2013/sitio/configuration.php",
-		"/C/Users/User/Desktop/enviar.txt",
-		"/C/Users/User/Desktop/CLientes/full80s/BackUP Site enero 2013/configuration.php",
-		"/C/Users/User/Desktop/CLientes/full80s/BackUP Site enero 2013/web.config.txt",
-		"/C/Users/User/Desktop/CLientes/SPR/2013/webnail para enero 22/webnail.html",
-		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/Site/index.html",
-		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/Site/css/estilos.css",
-		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/mail/tedx-resume.html",
-		"/C/Users/User/Desktop/CLientes/SPR/2013/Tedx 2013/Site/js/main.js",
-		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/tamsaac/db/data/tamsaac.sql"
+		"/C/Users/User/Desktop/CLientes/SPR/Tamsaac/tamsaac/index.html"
 	],
 	"find":
 	{
@@ -618,6 +656,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<img src=\"img/logo.png\" alt=\"\">",
+			"h3",
+			"button",
+			"gifts",
+			"span",
+			"summary",
+			"h4",
+			"h3",
+			"10px",
+			"text-shadow",
 			"background",
 			"<img src=\"img/sanandres.jpg\" alt=\"\">",
 			"50",
@@ -735,17 +783,7 @@
 			"do",
 			"com",
 			"ñ",
-			"\"",
-			",",
-			";",
-			"pmunozs@hotmail.com",
-			"com",
-			"\"",
-			",",
-			" com",
-			";",
-			"rt-footer",
-			"em"
+			"\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -753,6 +791,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<a href=\"index.html\"> <img src=\"img/logo.png\" alt=\"\"></a>",
+			"flights",
 			"'",
 			"\"",
 			"<li><a href=\"fem.html\" title=\"Manos con Alma FEM\" >Manos con<br />Alma FEM</a></li>",
@@ -818,103 +858,79 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 6706,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1064,
+								1007
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/main.css",
+					"file": "cartagena.html",
 					"settings":
 					{
-						"buffer_size": 5490,
+						"buffer_size": 12448,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3540,
-								3540
+								830,
+								830
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3594.0,
+						"translation.y": 74.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "css/main.styl",
+					"file": "coffee.html",
 					"settings":
 					{
-						"buffer_size": 4491,
+						"buffer_size": 12468,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								187,
-								187
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 6404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								830,
+								830
 							]
 						],
 						"settings":
@@ -925,6 +941,143 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/main.styl",
+					"settings":
+					{
+						"buffer_size": 6208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bogota.html",
+					"settings":
+					{
+						"buffer_size": 12205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2542,
+								2573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sanandres.html",
+					"settings":
+					{
+						"buffer_size": 12446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								830,
+								830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 7859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5897,
+								5764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5853.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

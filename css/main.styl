@@ -11,8 +11,8 @@ a
 	transition 0.4s all ease
 
 a:hover
-	background #fff
 	color #000
+
 
 body
 	font-size 1em
@@ -168,6 +168,7 @@ ul
 		width 100%
 
 
+
 	#in, #out
 		display inline-block
 		vertical-align top
@@ -199,6 +200,28 @@ ul
 		max-width 800px
 		padding 0 5%
 		vertical-align top
+
+		#gallery
+			background blue
+			border-radius 1em
+			padding 0.5em
+
+			h2
+				color #fff
+
+			figure
+				margin 0 40px
+
+
+				img
+					cursor pointer
+					max-width 220px
+					margin 5px 5px
+					transition 0.4s all ease
+
+				img:hover
+					opacity 0.5
+
 
 		table tr td
 			text-align center
@@ -235,6 +258,7 @@ ul
 				width 20%
 
 			figure a img
+				background none
 				border none
 
 			figure img
@@ -248,9 +272,21 @@ ul
 				-o-transform: translateX(-30px);
 				-ms-transform: translateX(-30px);
 
+
+
 			p
 				padding 2em
 				width 60%
+
+			.more
+				color blue
+				display none
+				margin 0px 190px
+
+				summary
+					cursor pointer
+
+
 
 			.readmore
 				text-align right
@@ -274,6 +310,11 @@ ul
 			-moz-transform: translateX(-30px);
 			-o-transform: translateX(-30px);
 			-ms-transform: translateX(-30px);
+
+		.post:hover .more
+			display inline-block
+			
+
 
 
 		#video
@@ -304,24 +345,29 @@ ul
 			margin-left 7em
 			border-radius 4px
 			color #fff
+			cursor pointer
 			opacity 0.6
 			padding 1em
 			text-align right
+			transition 0.4s all ease
+			width 30%
 
 
 		#tickets
 			background red
 			border-radius 4px
 			color #fff
+			cursor pointer
 			opacity 0.6
 			padding 1em
 			text-align right
 			transition 0.4s all ease
-			max-width 100px
+			width 30%
 
 		#plan:hover, #tickets:hover
 			box-shadow 0px 0px 10px rgba(0, 0, 0, .75)
 			opacity 1
+			width 50%
 
 		#tickets:hover span:after
 			font-weight bold

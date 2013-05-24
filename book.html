@@ -20,7 +20,7 @@
                <header>
                    <!--<h1>Living Colombia</h1>
                    <summary>Travel Agency for the Best Holidays in Colombia</summary>-->
-                  <a href="index.html"> <img src="img/logo.png" alt=""></a>
+                   <img src="img/logo.png" alt="">
                </header>
 
                <div id="login">
@@ -43,7 +43,7 @@
         <div id="navbar">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Plans</a></li>
                     <li><a href="#">Contact US</a></li>
                 </ul>
@@ -58,12 +58,8 @@
 
                 <h3>Flights</h3>
                 <form action="#" validate>
-                    <div id="in">
-                    <input type="text" required placeholder="From" id="from">
-                    </div>
-                    <div id="out">
                     <input type="text" required placeholder="Where" id="where">
-                    </div>
+
                     <div id="in">
                         <label for="date">Check In</label>
                     
@@ -92,49 +88,34 @@
             </div>
 <div id="content">
         <section id="news">
-            <article class="post">
-                <h3>San Andres</h3>
-                <figure>
-                    <a href="sanandres.html"> <img src="img/sanandres.jpg" alt=""></a>
-                </figure>
-                <p>
-                    You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-                </p>
-                <div class="readmore"><a href="sanandres.html">Read More</a></div>
-            </article>
+            <article class="flight">
+                
+                            <form action='/someServerSideHandler'>
+                <p>You have asked for <span data-bind='text: flights().length'>&nbsp;</span> flight(s)</p>
+                <table width="800" data-bind='visible: flights().length > 0'>
+                    <thead>
+                        <tr>
+                            <th>Flight</th>
+                            <th>Price</th>
+                            <th />
+                        </tr>
+                    </thead>
+                    <tbody data-bind='foreach: flights'>
+                        <tr>
+                            <td><input class='required' data-bind='value: name, uniqueName: true' /></td>
+                            <td><input class='required number' data-bind='value: price, uniqueName: true' /></td>
+                            <td><a href='#' data-bind='click: $root.removeFlight'>Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+             <div id="buy">
+                             <a  id="plan" data-bind='click: addFlight'>Add Plan</a>
+                             <a id="plan"data-bind='enable: flights().length > 0' type='submit'>Submit</a>
 
-            <article class="post">
-                <h3>Cartagena</h3>
-                <figure>
-                    <a href="cartagena.html"> <img src="img/cartagena.jpg" alt=""></a>
-                </figure>
-                <p>
-                    You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-                </p>
-                <div class="readmore"><a href="cartagena.html">Read More</a></div>
-            </article>
+            </div>
+            </form>
 
-            <article class="post">
-                <h3>Coffee Triangle</h3>
-                <figure>
-                    <a href="coffee.html"> <img src="img/coffee.jpg" alt=""></a>
-                </figure>
-                <p>
-                    You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-                </p>
-                <div class="readmore"><a href="coffee.html">Read More</a></div>
             </article>
-
-            <article class="post">
-                <h3>Bogota</h3>
-                <figure>
-                    <a href="bogota.html"> <img src="img/bogota.jpg" alt=""></a>
-                </figure>
-                <p>
-                    You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-                </p>
-                <div class="readmore"><a href="bogota.html">Read More</a></div>
-            </article><br />
         </section>
         <section id="sidebar">
 
@@ -184,5 +165,36 @@
 
 </div>
     <script src="js/main.js"></script>
+    <script src="js/libs/knockout.js"></script>
+    <script>
+    var FlightModel = function(flights) {
+    var self = this;
+    self.flights = ko.observableArray(flights);
+ 
+    self.addFlight = function() {
+        self.flights.push({
+            name: "",
+            price: ""
+        });
+    };
+ 
+    self.removeFlight = function(flight) {
+        self.flights.remove(flight);
+    };
+ 
+    self.save = function(form) {
+        alert("Could now transmit to server: " + ko.utils.stringifyJson(self.flights));
+        // To actually transmit to server as a regular form post, write this: ko.utils.postJson($("form")[0], self.flights);
+    };
+};
+ 
+var viewModel = new FlightModel([
+    { name: "Zurich - BTA", price: "390.95"}
+]);
+ko.applyBindings(viewModel);
+ 
+// Activate jQuery Validation
+$("form").validate({ submitHandler: viewModel.save });
+    </script>
     </body>
 </html>

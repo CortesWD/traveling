@@ -7,7 +7,6 @@ a {
   transition: 0.4s all ease;
 }
 a:hover {
-  background: #fff;
   color: #000;
 }
 body {
@@ -198,6 +197,26 @@ ul {
   padding: 0 5%;
   vertical-align: top;
 }
+#content #news #gallery {
+  background: #0f76bb;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+#content #news #gallery h2 {
+  color: #fff;
+}
+#content #news #gallery figure {
+  margin: 0 40px;
+}
+#content #news #gallery figure img {
+  cursor: pointer;
+  max-width: 220px;
+  margin: 5px 5px;
+  transition: 0.4s all ease;
+}
+#content #news #gallery figure img:hover {
+  opacity: 0.5;
+}
 #content #news table tr td {
   text-align: center;
 }
@@ -232,6 +251,7 @@ ul {
   width: 20%;
 }
 #content #news .post figure a img {
+  background: none;
   border: none;
 }
 #content #news .post figure img {
@@ -247,6 +267,14 @@ ul {
 #content #news .post p {
   padding: 2em;
   width: 60%;
+}
+#content #news .post .more {
+  color: #0f76bb;
+  display: none;
+  margin: 0px 190px;
+}
+#content #news .post .more summary {
+  cursor: pointer;
 }
 #content #news .post .readmore {
   text-align: right;
@@ -270,6 +298,9 @@ ul {
   -moz-transform: translateX(-30px);
   -o-transform: translateX(-30px);
   -ms-transform: translateX(-30px);
+}
+#content #news .post:hover .more {
+  display: inline-block;
 }
 #content #news #video {
   background: url("../img/bta-video.jpg") no-repeat;
@@ -298,24 +329,29 @@ ul {
   margin-left: 7em;
   border-radius: 4px;
   color: #fff;
+  cursor: pointer;
   opacity: 0.6;
   padding: 1em;
   text-align: right;
+  transition: 0.4s all ease;
+  width: 30%;
 }
 #content #buy #tickets {
   background: #ee1c25;
   border-radius: 4px;
   color: #fff;
+  cursor: pointer;
   opacity: 0.6;
   padding: 1em;
   text-align: right;
   transition: 0.4s all ease;
-  max-width: 100px;
+  width: 30%;
 }
 #content #buy #plan:hover,
 #content #buy #tickets:hover {
   box-shadow: 0px 0px 10px rgba(0,0,0,0.75);
   opacity: 1;
+  width: 50%;
 }
 #content #buy #tickets:hover span:after {
   font-weight: bold;
